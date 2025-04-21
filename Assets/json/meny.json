@@ -1,0 +1,56 @@
+{
+    "meny": {
+        "kategorier": [
+            {
+                "navn": "Kaffe",
+                "varer": [
+                    {
+                        "navn": "Espresso",
+                        "pris": "25.0 kr",
+                        "beskrivelse": "Fyldig og sterk espresso."
+                    },
+                    {
+                        "navn": "Cappuccino",
+                        "pris": "35.0 kr",
+                        "beskrivelse": "Espresso med steamet melk og skum."
+                    },
+                    {
+                        "navn": "Latte",
+                        "pris": "40.0 kr",
+                        "beskrivelse": "Kremet latte med valgfri melk."
+                    }
+                ]
+            },
+            {
+                "navn": "Te",
+                "varer": [
+                    {
+                        "navn": "Grønn Te",
+                        "pris": "20.0 kr",
+                        "beskrivelse": "Forfriskende og sunn grønn te."
+                    },
+                    {
+                        "navn": "Chai Latte",
+                        "pris": "30.0 kr",
+                        "beskrivelse": "Krydret te med steamet melk."
+                    }
+                ]
+            },
+            {
+                "navn": "Bakverk",
+                "varer": [
+                    {
+                        "navn": "Croissant",
+                        "pris": "25.0 kr",
+                        "beskrivelse": "Sprø og smøraktig croissant."
+                    },
+                    {
+                        "navn": "Muffins",
+                        "pris": "20.0 kr",
+                        "beskrivelse": "Myk og deilig muffins i ulike smaker."
+                    }
+                ]
+            }
+        ]
+    }
+}

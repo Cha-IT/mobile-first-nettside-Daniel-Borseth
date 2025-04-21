@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Løven Kafé</title>
+  <link rel="stylesheet" href="../Css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero-images">
+    <div class="hero-image-left">
+      <img src="../img/cafe11.jfif" alt="Kaffe på Løven Kafé">
+    </div>
+    <div class="hero-image-right">
+      <img src="../img/cafe1.jfif" alt="Bar på Løven Kafé">
+    </div>
+  </div>
+  
+  <header>
+    <h1 class="cafe-title">Løven Kafé</h1>
+  </header>
+  
+  <div class="navigation-container">
+    <nav>
+      <ul class="main-nav">
+        <li><a href="meny.html">Meny</a></li>
+        <li><a href="bestill.html">Bestill</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <main class="main-content">
+    <section class="welcome-section">
+      <h2 class="section-title">Velkommen til vår kafé</h2>
+      <p class="welcome-text">
+        Hos oss møter du god mat, hyggelig atmosfære og ekte hverdagsro – midt i hjertet av nærmiljøet.
+        For rask og enkel service anbefaler vi å bestille via telefon. Send inn din bestilling i forkant, så står maten klar når du kommer.
+        <br><br>
+        Velkommen inn – vi gleder oss til å se deg!
+      </p>
+    </section>
+    
+    <div class="content-container">
+      <div class="image-container">
+        <img class="food-image" src="../img/cafe3.jfif" alt="Mat fra Løven Kafé">
+      </div>
+      
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.4695122035746!2d10.398704003308346!3d63.43224318175284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319f9b1c9c7f%3A0x123456789abcdef!2sKongens%20gate%2C%20Trondheim!5e0!3m2!1sno!2sno!4v1744542510589!5m2!1sno!2sno&zoom=15"
+          width="100%"
+          height="350"
+          style="border:0;"
+          allow="geolocation"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+    
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Kontakt Oss</h2>
+      <div class="contact-info">
+        <p><strong>Adresse:</strong> Kongensgate, Trondheim 7012</p>
+        <p><strong>Telefon:</strong> 484 33 888</p>
+      </div>
+      
+      <div class="contact-form">
+        <form action="mailto:danielborseth@outlook.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Melding:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-button">Send Melding</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Løven Kafé | Alle rettigheter forbeholdt</p>
+  </footer>
+  
+  <script src="../Js/script.js"></script>
+</body>
+</html>
