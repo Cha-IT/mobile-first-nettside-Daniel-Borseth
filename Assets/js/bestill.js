@@ -1,5 +1,6 @@
 const body = document.querySelector("body");
 body.style.backgroundColor = "#f5f5dc";
+body.style.overflowX = "hidden";
 
 const header = document.querySelector("header");
 header.style.width = "100vw";
